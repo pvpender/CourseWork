@@ -65,10 +65,14 @@ namespace Курсач
             if (this.WindowState == FormWindowState.Normal)
             {
                 this.WindowState = FormWindowState.Maximized;
+                System.Diagnostics.Debug.WriteLine(this.plotView1.Location);
+                this.plotView1.Bounds = new Rectangle(this.plotView1.Location.X - 100, this.plotView1.Location.Y - 100, this.plotView1.Size.Width + 100, this.plotView1.Size.Height + 100); 
             }
             else
             {
                 this.WindowState = FormWindowState.Normal;
+                System.Diagnostics.Debug.WriteLine(this.plotView1.Location);
+                this.plotView1.Bounds = new Rectangle(this.plotView1.Location.X + 100, this.plotView1.Location.Y + 100, this.plotView1.Size.Width - 100, this.plotView1.Size.Height - 100);
             }
         }
 

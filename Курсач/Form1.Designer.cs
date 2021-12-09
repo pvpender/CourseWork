@@ -38,13 +38,13 @@ namespace Курсач
             // 
             // plotView1
             // 
-            this.plotView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.plotView1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.plotView1.BackColor = System.Drawing.Color.AliceBlue;
-            this.plotView1.Location = new System.Drawing.Point(197, 36);
+            this.plotView1.Location = new System.Drawing.Point(202, 50);
             this.plotView1.Name = "plotView1";
             this.plotView1.PanCursor = System.Windows.Forms.Cursors.Hand;
             this.plotView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.plotView1.Size = new System.Drawing.Size(489, 302);
+            this.plotView1.Size = new System.Drawing.Size(486, 315);
             this.plotView1.TabIndex = 0;
             this.plotView1.Text = "plotView1";
             this.plotView1.ZoomHorizontalCursor = System.Windows.Forms.Cursors.SizeWE;
